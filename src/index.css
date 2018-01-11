@@ -1,0 +1,53 @@
+.commonTable {
+  width: auto;
+  padding: 0 20px 25px 20px;
+}
+.commonTable em {
+  font-style: italic;
+}
+.commonTable ins {
+  text-decoration: underline;
+}
+.commonTable label {
+  font-weight: normal;
+}
+.commonTable .searchTop {
+  padding: 35px 42px 0;
+  background: #fff;
+  margin-bottom: 15px;
+  box-shadow: 0 4px 2px #ccc;
+}
+.commonTable .searchTop .searchTopDiv {
+  margin-bottom: 20px;
+  margin-right: 20px;
+  display: inline-block;
+}
+.commonTable .searchTop .titleSpan {
+  margin-right: 15px;
+}
+.commonTable .searchTop button {
+  margin-right: 10px;
+}
+.commonTable .tableWrapper {
+  background: #fff;
+  margin-top: 20px;
+  padding: 35px 42px;
+}
+.commonTable .tableWrapper .pageControl {
+  margin: 20px 50px 15px;
+}
+.commonTable .tableWrapper .pageControl:after {
+  height: 0;
+  content: "\200B";
+  clear: both;
+  line-height: 0;
+  display: block;
+}
+.commonTable .tableWrapper .pageControl > div {
+  float: right;
+}
+/*下载置灰*/
+.hasDownload,
+.hasExpired {
+  color: #ccc;
+}

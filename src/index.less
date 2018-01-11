@@ -1,0 +1,52 @@
+.commonTable{
+	width:auto;
+	padding: 0 20px 25px 20px;
+	& em {
+		font-style: italic;
+	}
+	& ins {
+		text-decoration: underline;
+	}
+	& label {
+		font-weight: normal;
+	}
+	& .searchTop {
+		padding:35px 42px 0;
+		background: #fff;
+		margin-bottom: 15px;
+		box-shadow: 0 4px 2px #ccc;
+		& .searchTopDiv{
+			margin-bottom: 20px;
+			margin-right: 20px;
+			display: inline-block;
+		}
+		& .titleSpan{
+			margin-right: 15px;
+		}
+		&  button{
+			margin-right: 10px;
+		}
+	}
+	& .tableWrapper{
+		background: #fff;
+		margin-top:20px;
+		padding: 35px 42px;
+		& .pageControl {
+			margin: 20px 50px 15px;
+			&:after {
+				height: 0;
+				content: "\200B";
+				clear: both;
+				line-height: 0;
+				display: block;
+			}
+			& > div {
+				float: right;
+			}
+		}
+	}
+}
+/*下载置灰*/
+.hasDownload,.hasExpired{
+	color:#ccc;
+}
